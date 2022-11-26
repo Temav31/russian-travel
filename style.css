@@ -1,0 +1,182 @@
+
+body {
+    margin: 0;
+    background: #E5E5E5;
+}
+.body{
+    font-family:"inter";
+}
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.lead {
+    padding-top: 48px;
+}
+
+.lead__title {
+    margin: 0 auto;
+
+    font-size: 40px;
+    line-height: 44px;
+    /* or 110% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lead__subtitle {
+    margin: 0;
+    padding: 16px 16px 0 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.lead__image {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.lead__caption {
+    margin: 0;
+    padding: 4px 0 0 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height, or 140% */
+
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .lead {
+        padding-top: 128px;
+    }
+
+    .lead__title {}
+}
+
+
+
+.cover {
+    background-image: url(./sprint-3-images/cover-trains.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.cover__link {
+    display: block;
+    text-decoration: none;
+}
+
+.cover__link:hover {
+    background: rgba(42, 44, 47, 0.8);
+}
+
+.cover__title {
+    padding: 33px 16px 0 16px;
+    margin: 0;
+    font-size: 32px;
+    line-height: 35px;
+    /* or 109% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.cover__subtitle {
+    margin-top: 16px;
+    padding: 0 16px 33px 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+@media (min-width: 768px) {
+    .cover {
+        /* width: 768px; */
+    }
+
+    .cover__title {
+        padding: 115px 104px 0 104px;
+        margin: 0;
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .cover__subtitle {
+        margin-top: 32px;
+        padding: 0 204px 115px 204px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .cover {
+        /* width: 1024px; */
+    }
+
+    .cover__title {
+        padding: 195px 232px 0 232px;
+        margin: 0;
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .cover__subtitle {
+        margin-top: 32px;
+        padding: 0 332px 195px 332px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover {
+
+        margin: 0 48px;
+    }
+
+    .cover__title {
+        padding: 245px 312px 0 312px;
+        margin: 0;
+        font-size: 72px;
+        line-height: 76px;
+    }
+
+    .cover__subtitle {
+        margin-top: 32px;
+        padding: 0 412px 245px 412px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
