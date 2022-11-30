@@ -34,8 +34,8 @@
 @import url(../bloks/places/__place/places__place.css);
 @import url(../bloks/places/__title/places__title.css);
 @import url(../bloks/places/__website/places__website.css);
-@import url(../bloks/places/__website/places__website__link.css);
-@import url(../bloks/places/__website/places__website__url-heading.css);
+@import url(../bloks/places/__link/places__link.css);
+@import url(../bloks/places/__url-heading/places__url-heading.css);
 /* Свойства cover */
 @import url(../bloks/cover/cover.css);
 @import url(../bloks/cover/__link/cover__link.css);
