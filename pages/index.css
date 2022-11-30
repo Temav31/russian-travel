@@ -8,8 +8,8 @@
 @import url(../bloks/text-title/text-title.css);
 /* Свойства header */
 @import url(../bloks/header/header.css);
-@import url(../bloks/header/__land-link/header__land-link__en.css);
-@import url(../bloks/header/__land-link/header__land-link__ru.css);
+@import url(../bloks/header/__land-link/__lang/header__land-link__lang_en.css);
+@import url(../bloks/header/__land-link/__lang/header__land-link__lang_ru.css);
 @import url(../bloks/header/__links/header__links.css);
 @import url(../bloks/header/__logo/header__logo.css);
 /* Свойства lead */
