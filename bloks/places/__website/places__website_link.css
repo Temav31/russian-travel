@@ -1,0 +1,9 @@
+.places__website_link {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+}
+
+.places__website_link:hover {
+    opacity: 0.8;
+}

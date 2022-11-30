@@ -27,8 +27,15 @@
 @import url(../bloks/intro/__list/intro__list.css);
 @import url(../bloks/intro/__list/intro__list.css);
 @import url(../bloks/intro/__title/intro__title.css);
-
-
+/* Свойства places */
+@import url(../bloks/places/places.css);
+@import url(../bloks/places/__image/places__image.css);
+@import url(../bloks/places/__paragraph/places__paragraph.css);
+@import url(../bloks/places/__place/places__place.css);
+@import url(../bloks/places/__title/places__title.css);
+@import url(../bloks/places/__website/places__website.css);
+@import url(../bloks/places/__website/places__website_link.css);
+@import url(../bloks/places/__website/places__website_url-heading.css);
 /* Свойства cover */
 @import url(../bloks/cover/cover.css);
 @import url(../bloks/cover/__link/cover__link.css);

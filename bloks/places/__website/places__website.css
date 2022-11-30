@@ -1,0 +1,12 @@
+.places__website {
+    list-style-type: none;
+    align-self: end;
+    margin: 0;
+    padding: 32px 0 32px 16px;
+}
+@media (min-width: 768px) {
+    .places__website {
+        padding: 0;
+        align-self: end;
+    }
+}

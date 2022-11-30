@@ -10,7 +10,7 @@
 @media (min-width: 768px) {
     .cover__subtitle {
         padding-top: 32px;
-        /* padding-bottom: 115px; */
+        padding-bottom: minmax(115px, 245px);
         font-size: 18px;
         line-height: 22px;
     }
