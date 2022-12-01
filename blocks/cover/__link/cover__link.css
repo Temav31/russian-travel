@@ -1,8 +1,16 @@
 .cover__link {
     display: block;
     text-decoration: none;
-    width: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .cover__link:hover {
     background: rgba(42, 44, 47, 0.8);
+    transform: scale(1.05);
 }
