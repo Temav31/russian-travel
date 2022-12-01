@@ -1,11 +1,12 @@
 @import url(../vendor/normalize.css);
-@import url(../bloks/body/body.css);
 /* Подключение стилей шрифта */
 @import url(../fonts/inter.css);
 /* Подключение шрифтов */
 @import url(../bloks/text-callout/text-callout.css);
 @import url(../bloks/text-content/text-content.css);
 @import url(../bloks/text-title/text-title.css);
+/* Свойства body */
+@import url(../bloks/body/body.css);
 /* Свойства header */
 @import url(../bloks/header/header.css);
 @import url(../bloks/header/__link-ru/header__link-ru.css);
@@ -40,7 +41,7 @@
 @import url(../bloks/cover/cover.css);
 @import url(../bloks/cover/__link/cover__link.css);
 @import url(../bloks/cover/__subtitle/cover__subtitle.css);
-@import url(../bloks/cover/_title/cover__title.css);
+@import url(../bloks/cover/__title/cover__title.css);
 /* Свойства footer */
 @import url(../bloks/footer/footer.css);
 @import url(../bloks/footer/__copyright/footer__copyright.css);
