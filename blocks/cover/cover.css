@@ -7,7 +7,7 @@
     min-width: 320px;
     position: relative;
 }
-.cover::before {
+/* .cover::before {
     content: '';
     position: absolute;
     top: 0;
@@ -22,7 +22,7 @@
   }
 .cover:hover::before{
     opacity: 0.8;
-}
+} */
 
 @media (min-width: 768px) {
     .cover {
