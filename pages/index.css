@@ -2,7 +2,6 @@
 /* Подключение стилей шрифта */
 @import url(../fonts/fonts.css);
 /* Подключение шрифтов */
-@import url(../blocks/text-callout/text-callout.css);
 @import url(../blocks/text-content/text-content.css);
 @import url(../blocks/text-title/text-title.css);
 /* Свойства body */
